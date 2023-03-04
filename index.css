@@ -1,0 +1,79 @@
+body,html{
+    height:100%;
+    margin:0;
+    padding:0;
+    background: #f1f1f1;
+    font-family:sans-serif;
+}
+.hero-image{
+    position: relative;
+    height: 830px;
+    overflow:hidden;
+    background: url("https://images.axios.com/PBbC8tD5RehSuJM0mmt74kQatnc=/1920x1080/smart/2017/12/15/1513306300501.jpg");
+    background-size: cover;
+    }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: (-50%,-50%);
+        
+        text-align: left;
+        color:#f1f1f1;
+        font-weight:700;
+        text-transform: uppercase;
+    }
+    .container h1{
+        font-size: 72px;
+        letter-spacing: 0em;
+    }
+    .container h1 span{
+        border: 5px solid white;
+        display:inline-block;
+    }
+    .des{
+        margin:20px;
+        display: block;
+        font-size:26px;
+        text-shadow:0 0 10px black;
+    }
+    .btn{
+        color: #313131;
+        padding: 10px 24px;
+        font-size: 20px;
+        text-decoration: none;
+        background: #f1f1f1;
+        border-radius: 8px;
+        transition: 0.3s all;
+    }
+    .btn:hover{
+        opacity:0.8;
+    }
+    
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border-box;
+        }
+        
+         .menu-bar{
+             width:100%;
+        text-align:center;
+        box-shadow:1px 2px 4px gray;
+        background:rgba(2,2,2,0.2);
+         }
+         .menu-bar li{
+             list-style-type:none;
+             display:inline-block;
+             padding:30px;
+             margin:0px 20px;
+             font-size:25px;
+             font-family:san-serif;
+             cursor:pointer;
+             font-weight:bold;
+         }
+         .menu-bar li:hover{
+             background:#007bff;
+             color:white;
+         }
+         
